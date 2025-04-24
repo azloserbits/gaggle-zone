@@ -14,7 +14,7 @@
   - type: Clickable
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/statues.rsi
+    sprite: Structures/Decoration/water.rsi
     state: shoreline_water
     drawdepth: BelowFloor
     layers:
@@ -82,7 +82,7 @@
   - type: Clickable
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/statues.rsi
+    sprite: Structures/Decoration/water.rsi
     state: shoreline_water
     drawdepth: BelowFloor
     layers:

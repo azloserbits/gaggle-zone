@@ -42,16 +42,4 @@
     graph: BananiumStatueClown
     node: bananiumStatue
 
-- type: entity
-  id: StatueBloodChalice
-  parent: BaseStructure
-  name: statue of the final toast
-  suffix: Red
-  description: description here!
-  components:
-  - type: Sprite
-    noRot: true
-    sprite: Structures/Decoration/statues.rsi
-    state: venus_red
-    drawdepth: Mobs
-    offset: "0.0,0.5
+

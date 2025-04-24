@@ -101,7 +101,7 @@
   reagent: Frezon
   pricePerMole: 6.6
 
-#/tg/ gases
+# Assmos - /tg/ gases
 
 - type: gas
   id: 9
@@ -156,5 +156,3 @@
   color: fffaf0
   reagent: Hydrogen
   pricePerMole: 1.2
-
-# Assmos - /tg/ gases end
