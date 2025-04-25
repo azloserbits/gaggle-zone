@@ -1,5 +1,5 @@
 - type: entity
-  id: FloorWaterEntity
+  id: FloorBloodEntity
   name: water
   description: A real thirst quencher.
   placement:
@@ -13,10 +13,10 @@
   - type: SyncSprite
   - type: Clickable
   - type: Sprite
-    sprite: Tiles/Planet/water.rsi
+    sprite: Tiles/Planet/blood.rsi
     drawdepth: BelowFloor
     layers:
-      - state: shoreline_water
+      - state: shoreline_blood
   - type: SolutionContainerManager
     solutions:
       pool:
