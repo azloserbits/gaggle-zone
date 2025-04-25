@@ -1,7 +1,7 @@
 - type: entity
   id: FloorBloodEntity
-  name: water
-  description: A real thirst quencher.
+  name: blood
+  description: A strange pool of blood that remains idly dry. Upon forensic inspection it's discovered to have the platelets all scrubbed off.
   placement:
     mode: SnapgridCenter
     snap:
@@ -22,7 +22,7 @@
       pool:
         maxVol: 9999999 #.inf seems to break the whole yaml file, but would definitely be preferable.
         reagents:
-        - ReagentId: Water
+        - ReagentId: Blood
           Quantity: 9999999
   #- type: SolutionRegeneration Goobstation - laggy as shit
   #  solution: tank
