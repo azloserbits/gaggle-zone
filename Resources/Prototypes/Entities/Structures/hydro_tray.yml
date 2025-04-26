@@ -23,23 +23,23 @@
       - sprite: Structures/Hydroponics/containers.rsi
         state: hydrotray4
       - sprite: Structures/Hydroponics/overlays.rsi
-        state: lowhealth3
+        state: over_lowhealth3
         map: [ "health_alert" ]
         visible: false
       - sprite: Structures/Hydroponics/overlays.rsi
-        state: lowwater3
+        state: over_lowwater3
         map: [ "water_alert" ]
         visible: false
       - sprite: Structures/Hydroponics/overlays.rsi
-        state: lownutri3
+        state: over_lownutri3
         map: [ "nutri_alert" ]
         visible: false
       - sprite: Structures/Hydroponics/overlays.rsi
-        state: alert3
+        state: over_alert3
         map: [ "undefined_alert" ]
         visible: false
       - sprite: Structures/Hydroponics/overlays.rsi
-        state: harvest3
+        state: over_harvest3
         map: [ "harvest_alert" ]
         visible: false
   - type: Appearance
