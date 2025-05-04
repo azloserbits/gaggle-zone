@@ -14,6 +14,18 @@
     {
       "name": "closed",
       "directions": 1
+    },
+    {
+        "name": "closed-bloody",
+        "directions": 1
+    },
+    {
+        "name": "closed-bloody-torn",
+        "directions": 1
+    },
+    {
+        "name": "closed-torn",
+        "directions": 1
     }
   ]
 }

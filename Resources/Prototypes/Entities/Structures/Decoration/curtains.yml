@@ -353,3 +353,51 @@
     node: CurtainsWhiteOpen
   - type: Physics
     canCollide: false
+
+- type: entity
+  id: HospitalCurtainsBloody #hell
+  parent: BaseCurtains
+  suffix: Hospital, Bloody
+  description: Contains less than 1% mercury, and about 75% blood.
+  components:
+  - type: Sprite
+    snapCardinals: true
+    sprite: Structures/Decoration/Curtains/hospital.rsi
+    layers:
+    - state: closed_bloody
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Construction
+    graph: Curtains
+    node: Curtains
+
+- type: entity
+  id: HospitalCurtainsBloodyTorn
+  parent: BaseCurtains
+  suffix: Hospital, Bloody
+  description: Contains less than 1% mercury, and about 75% blood.
+  components:
+  - type: Sprite
+    snapCardinals: true
+    sprite: Structures/Decoration/Curtains/hospital.rsi
+    layers:
+    - state: closed-bloody
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Construction
+    graph: Curtains
+    node: Curtains
+
+- type: entity
+  id: HospitalCurtainsTorn #hell
+  parent: BaseCurtains
+  suffix: Hospital, Torn
+  description: Contains less than 1% mercury, 75% blood and 25% less curtain than your average curtain.
+  components:
+  - type: Sprite
+    snapCardinals: true
+    sprite: Structures/Decoration/Curtains/hospital.rsi
+    layers:
+    - state: closed-bloody-torn
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Construction
+    graph: Curtains
+    node: Curtains

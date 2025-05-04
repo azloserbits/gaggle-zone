@@ -419,3 +419,19 @@
           MobLuminousObject:
             min: 0
             max: 1
+
+- type: entity
+  parent: BaseTreeLarge
+  id: FloraTreeLargeDead
+  name: large dead tree
+  components:
+  - type: Sprite
+    layers:
+    - state: dead1
+      map: ["random"]
+  - type: RandomSprite
+    available:
+    - random:
+        dead1: ""
+        dead2: ""
+        dead3: ""
