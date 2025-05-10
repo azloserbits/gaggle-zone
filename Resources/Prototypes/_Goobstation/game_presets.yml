@@ -6,12 +6,12 @@
     - changeling
   name: changeling-gamemode-title
   description: changeling-gamemode-description
-  showInVote: false
+  showInVote: true
   rules:
     - Changeling
     - SubGamemodesRule
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler Goobstation - nuh uh
+    #- MeteorSwarmScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -21,13 +21,13 @@
     - traitorling
   name: traitorling-title
   description: traitorling-description
-  showInVote: false
+  showInVote: true
   rules:
     - CalmLing
     - CalmTraitor
     - SubGamemodesRule
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler Goobstation - nuh uh
+    #- MeteorSwarmScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -38,12 +38,12 @@
     - optot
   name: nukeops-title
   description: nukeops-description
-  showInVote: false
+  showInVote: true
   rules:
     - Calmops
     - CalmTraitor
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler Goobstation - nuh uh
+    #- MeteorSwarmScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -53,12 +53,12 @@
     - opling
   name: nukeops-title
   description: nukeops-description
-  showInVote: false
+  showInVote: true
   rules:
     - Calmops
     - CalmLing
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler Goobstation - nuh uh
+    #- MeteorSwarmScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -69,12 +69,12 @@
     - totrevs
   name: revtraitor-title
   description: revtraitor-description
-  showInVote: false
+  showInVote: true
   rules:
     - CalmRevs
     - CalmTraitor
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler Goobstation - nuh uh
+    #- MeteorSwarmScheduler
 
 - type: gamePreset
   id: RevLing
@@ -83,13 +83,13 @@
     - lingrevs
   name: revling-title
   description: revling-description
-  showInVote: false
+  showInVote: true
   rules:
     - CalmRevs
     - CalmLing
     - SubGamemodesRule
     - BasicStationEventScheduler
-    #- MeteorSwarmScheduler Goobstation - nuh uh
+    #- MeteorSwarmScheduler
     - BasicRoundstartVariation
     - BasicRoundstartVariation
 
@@ -99,7 +99,7 @@
   - blab
   name: blob-title
   description: blob-description
-  showInVote: false
+  showInVote: true
   rules:
   - BlobGameMode
   - BasicStationEventScheduler

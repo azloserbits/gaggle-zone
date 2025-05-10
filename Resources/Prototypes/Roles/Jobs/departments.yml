@@ -2,7 +2,7 @@
   id: Cargo
   name: department-Cargo
   description: department-Cargo-description
-  color: "#A46106"
+  color: "#753300"
   roles:
   - CargoTechnician
   - Quartermaster
@@ -18,6 +18,8 @@
   roles:
   - Bartender
   - Botanist
+  - Rancher
+  - Waiter
   - Boxer
   - Chaplain
   - Chef
@@ -103,17 +105,20 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - Mechanic
 
 - type: department
   id: Medical
   name: department-Medical
   description: department-Medical-description
-  color: "#52B4E9"
+  color: "#00AB3B"
   roles:
   - Chemist
   - ChiefMedicalOfficer
   - MedicalDoctor
   - MedicalIntern
+  - Geneticist
+  - Virologist
   - Psychologist
   - Paramedic
 

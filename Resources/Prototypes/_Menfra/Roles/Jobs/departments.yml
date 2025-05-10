@@ -1,0 +1,20 @@
+- type: department
+  id: Menfra
+  name: department-Menfra
+  description: department-Menfra-description
+  color: "#48d1cc"
+  roles:
+  - GuildAssistanceLiason
+  - ShipInspectionSpecialist
+  - ShipCounselor  
+  editorHidden: true # Keep it hush until Menfra is reel:tm:.
+  weight: 120
+  
+- type: department
+  id: Navigation
+  name: department-Navigation
+  description: department-Navigation-description
+  color: "#DCE100"
+  #roles: # *crickets* we need the jobs
+  editorHidden: true # Keep it hush until Menfra is reel:tm:.
+  weight: 120

@@ -55,6 +55,9 @@
       "name": "idcaptain"
     },
     {
+      "name": "idmenfra"
+    },
+    {
       "name": "idcargotechnician"
     },
     {
@@ -221,6 +224,9 @@
     },
     {
       "name": "idseniorphysician"
+    },
+    {
+      "name": "idbridgeassist"
     },
     {
       "name": "idseniorofficer"
